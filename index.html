@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Laboratorio 4.2 - Página Web Estilizada</title>
+
+    <!--
+        HTML5 permite organizar la página mediante elementos semánticos.
+        En este proyecto se utilizan header, nav, main, section,
+        article y footer para estructurar el contenido.
+    -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Encabezado principal -->
+    <header class="encabezado">
+        <h1>Mi Página Web Estilizada</h1>
+        <p>Laboratorio 4.2 - Creación de una página web con CSS</p>
+        <p>Estudiante: Merwin Arciniegas Remolina</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav id="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyecto">Proyecto</a>
+        <a href="#estilos">Estilos</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección de inicio -->
+        <section id="inicio" class="seccion">
+            <h2>Bienvenidos</h2>
+
+            <p>
+                Esta página fue creada para practicar el uso de CSS
+                y diferentes tipos de selectores.
+            </p>
+
+            <p class="destacado">
+                CSS permite cambiar los colores, tamaños, espacios
+                y la apariencia general de una página web.
+            </p>
+        </section>
+
+        <!-- Artículo sobre el proyecto -->
+        <article id="proyecto" class="tarjeta">
+            <h2>Sobre el proyecto</h2>
+
+            <p>
+                En este laboratorio se utilizan elementos HTML5
+                junto con diferentes propiedades de CSS.
+            </p>
+
+            <h3>Elementos utilizados</h3>
+
+            <ul>
+                <li>HTML5 para la estructura.</li>
+                <li>CSS para el diseño.</li>
+                <li>Selectores de elementos, clases e IDs.</li>
+                <li>Modelo de caja.</li>
+                <li>Diseño responsivo.</li>
+            </ul>
+        </article>
+
+        <!-- Sección de estilos -->
+        <section id="estilos" class="seccion">
+
+            <h2>Ejemplo de estilos CSS</h2>
+
+            <figure>
+                <img src="images/css.svg" alt="Imagen relacionada con CSS">
+                <figcaption>
+                    CSS permite dar estilo y presentación a una página web.
+                </figcaption>
+            </figure>
+
+            <div class="caja">
+                <h3>Modelo de caja</h3>
+
+                <p>
+                    Esta caja utiliza margen, borde, relleno y contenido.
+                    Estas propiedades forman parte del modelo de caja de CSS.
+                </p>
+            </div>
+
+            <div class="caja especial">
+                <h3>Selectores CSS</h3>
+
+                <p>
+                    Esta sección utiliza clases para aplicar estilos
+                    de manera específica.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Laboratorio 4.2 | Desarrollo Web</p>
+        <p>Proyecto realizado por Merwin Arciniegas Remolina.</p>
+    </footer>
+
+</body>
+</html>

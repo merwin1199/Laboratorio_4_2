@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Selector de elemento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eef2f5;
+    color: #333;
+}
+
+/* Selector de clase */
+.encabezado {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+/* Selector de ID */
+#menu {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Secciones */
+.seccion {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #d5dce2;
+    border-radius: 10px;
+}
+
+/* Tarjeta */
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #174a7e;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h2 {
+    color: #174a7e;
+}
+
+h3 {
+    color: #2569a8;
+}
+
+/* Imagen */
+figure {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #174a7e;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Clase destacada */
+.destacado {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-left: 5px solid #174a7e;
+    font-weight: bold;
+}
+
+/*
+    MODELO DE CAJA:
+    margin = espacio exterior
+    border = borde
+    padding = espacio interior
+    content = contenido
+*/
+
+.caja {
+    background-color: #f8fafc;
+    margin: 20px 0;
+    padding: 25px;
+    border: 3px solid #174a7e;
+    border-radius: 10px;
+}
+
+/* Clase adicional */
+.especial {
+    border-color: #2e7d32;
+    background-color: #e8f5e9;
+}
+
+/* Lista */
+li {
+    margin-bottom: 8px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/*
+    DISEÑO RESPONSIVO:
+    Estos estilos se aplican cuando la pantalla
+    tiene un ancho máximo de 600 píxeles.
+*/
+
+@media (max-width: 600px) {
+
+    .encabezado {
+        padding: 25px 10px;
+    }
+
+    .encabezado h1 {
+        font-size: 26px;
+    }
+
+    #menu a {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .seccion,
+    .tarjeta {
+        padding: 18px;
+    }
+
+    .caja {
+        padding: 18px;
+    }
+}
